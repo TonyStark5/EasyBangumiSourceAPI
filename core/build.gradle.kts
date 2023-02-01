@@ -53,7 +53,7 @@ afterEvaluate {
         publications {
             create("maven_public", MavenPublication::class) {
                 groupId = "com.heyanle"
-                artifactId = "source-yhdmp"
+                artifactId = "core"
                 version = "1.0"
                 from(components.getByName("release"))
             }
