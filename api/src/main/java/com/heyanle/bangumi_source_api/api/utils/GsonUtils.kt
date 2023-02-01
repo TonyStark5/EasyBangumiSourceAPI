@@ -1,4 +1,4 @@
-package com.heyanle.api.utils
+package com.heyanle.bangumi_source_api.api.utils
 
 import com.google.gson.GsonBuilder
 

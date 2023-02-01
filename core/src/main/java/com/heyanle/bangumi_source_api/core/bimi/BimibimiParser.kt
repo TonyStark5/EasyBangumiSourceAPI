@@ -1,12 +1,12 @@
-package com.heyanle.core.bimi
+package com.heyanle.bangumi_source_api.core.bimi
 
 import com.google.gson.JsonParser
-import com.heyanle.api.*
-import com.heyanle.api.IPlayerParser.PlayerInfo.Companion.TYPE_HLS
-import com.heyanle.api.entity.Bangumi
-import com.heyanle.api.entity.BangumiDetail
-import com.heyanle.api.entity.BangumiSummary
-import com.heyanle.api.utils.OkHttpUtils
+import com.heyanle.bangumi_source_api.api.*
+import com.heyanle.bangumi_source_api.api.IPlayerParser.PlayerInfo.Companion.TYPE_HLS
+import com.heyanle.bangumi_source_api.api.entity.Bangumi
+import com.heyanle.bangumi_source_api.api.entity.BangumiDetail
+import com.heyanle.bangumi_source_api.api.entity.BangumiSummary
+import com.heyanle.bangumi_source_api.api.utils.OkHttpUtils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.jsoup.Jsoup

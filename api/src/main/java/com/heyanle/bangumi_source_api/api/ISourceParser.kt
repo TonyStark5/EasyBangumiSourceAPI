@@ -1,8 +1,8 @@
-package com.heyanle.api
+package com.heyanle.bangumi_source_api.api
 
-import com.heyanle.api.entity.Bangumi
-import com.heyanle.api.entity.BangumiDetail
-import com.heyanle.api.entity.BangumiSummary
+import com.heyanle.bangumi_source_api.api.entity.Bangumi
+import com.heyanle.bangumi_source_api.api.entity.BangumiDetail
+import com.heyanle.bangumi_source_api.api.entity.BangumiSummary
 import java.lang.Exception
 
 

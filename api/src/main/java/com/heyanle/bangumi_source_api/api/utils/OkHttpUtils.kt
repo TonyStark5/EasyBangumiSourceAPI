@@ -1,4 +1,4 @@
-package com.heyanle.api.utils
+package com.heyanle.bangumi_source_api.api.utils
 
 import okhttp3.*
 import java.security.SecureRandom

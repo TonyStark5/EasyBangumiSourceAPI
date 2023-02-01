@@ -1,4 +1,4 @@
-package com.heyanle.api.utils
+package com.heyanle.bangumi_source_api.api.utils
 
 /**
  * Created by HeYanLe on 2023/2/1 14:13.

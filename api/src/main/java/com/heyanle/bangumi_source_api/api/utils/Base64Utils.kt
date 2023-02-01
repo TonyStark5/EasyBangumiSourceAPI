@@ -1,4 +1,4 @@
-package com.heyanle.api.utils
+package com.heyanle.bangumi_source_api.api.utils
 
 // https://github.com/saschpe/Kase64
 
