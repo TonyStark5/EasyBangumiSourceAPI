@@ -11,10 +11,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/api" />
             <option value="$PROJECT_DIR$/buildSrc" />
-            <option value="$PROJECT_DIR$/souce-yhdmp" />
-            <option value="$PROJECT_DIR$/source-bimi" />
-            <option value="$PROJECT_DIR$/source-cycdm" />
-            <option value="$PROJECT_DIR$/source-yhdm" />
+            <option value="$PROJECT_DIR$/core" />
           </set>
         </option>
       </GradleProjectSettings>
