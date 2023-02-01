@@ -1,14 +1,20 @@
 import com.heyanle.buildsrc.*
-import org.gradle.kotlin.dsl.project
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
+    id("maven-publish")
 }
 
 android {
     namespace = "com.heyanle.source_bimi"
     compileSdk = com.heyanle.buildsrc.Android.compileSdk
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+        }
+    }
 
     defaultConfig {
         minSdk = com.heyanle.buildsrc.Android.minSdk

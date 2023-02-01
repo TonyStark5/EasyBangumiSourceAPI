@@ -1,13 +1,20 @@
 import com.heyanle.buildsrc.*
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
+    id("maven-publish")
 }
 
 android {
     namespace = "com.heyanle.souce_yhdmp"
     compileSdk = com.heyanle.buildsrc.Android.compileSdk
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+        }
+    }
 
     defaultConfig {
         minSdk = com.heyanle.buildsrc.Android.minSdk
